@@ -1,0 +1,73 @@
+
+body {
+    background: #141C24;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family:'AireExterior' ;
+    src: url(/fonts/AireExterior.ttf);
+}
+
+
+.block_glav {
+     
+}
+
+.block_glav {
+    text-align: center;
+}
+
+.block_text {
+    padding-top: 235px;
+    font-family: 'AireExterior';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;  
+    padding-bottom: 125px;  
+}
+
+@media (max-width:683px) {
+    .block_text {
+        font-size: 35px;
+        padding-top: 30px;
+        padding-bottom: 20px; 
+    }
+}
+
+
+.block_text img {
+    padding-right: 71px;
+}
+
+@media (max-width:683px) {
+    .block_text img {
+        padding-right: 30px;
+    }
+}
+
+.block_img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:683px) {
+    .block_img  {
+        display: block;
+    }
+}
+
+@media (max-width:683px) {
+    .block_img a {
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+    }
+}

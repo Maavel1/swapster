@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'AireExterior' ;
+    src: url(../fonts/AireExterior.ttf);
+}
+
+body {
+    background: #141C24;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.title_text {
+    font-family: 'AireExterior';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.title_text img {
+    padding-right: 47px;
+}
+
+@media (max-width:401px) {
+    .title_text img {
+        padding-right: 5px;
+    }
+}
+
+.descript_1, .descript_2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 180%;
+    color: #ABABAB;
+}
+
+.descript_1 {
+    padding-bottom: 20px;
+}
